@@ -1,0 +1,75 @@
+
+
+/* cssvariables */
+:root {
+    --navbar-height: 50px;
+
+}
+
+/* navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    height: auto;
+}
+
+/* logo */
+#logo {
+    margin: 20px 30px;
+    
+}
+
+#logo img {
+    margin: 5px 10px;
+    height: 60px;
+    border-radius: 6px 6px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+}
+
+/* list styling */
+#navbar ul {
+    margin-left: 10cm;
+    display: flex;
+}
+#navbar::before {
+   content: "";
+   background-color: rgb(244, 232, 217);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.2;
+   
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 20px;
+
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 15px 24px;
+    margin: 8px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    font-family: Georgia, "Times New Roman", Times, serif;
+ 
+}
+.button{
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
